@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x2 Blindfolded Training</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>2x2 Blindfolded Rubik's Cube Training</h1>
+        <div class="scramble-section">
+            <label for="scramble-input">Enter Scramble:</label>
+            <input type="text" id="scramble-input" placeholder="Enter scramble here">
+            <button id="generate-scramble">Generate Scramble</button>
+            <button id="start-timer">Start Timer</button>
+        </div>
+        <div class="timer">
+            <span id="time">0.00</span> seconds
+        </div>
+        <button id="stop-timer" disabled>Stop Timer</button>
+        <div class="results">
+            <h2>Results</h2>
+            <ul id="results-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
